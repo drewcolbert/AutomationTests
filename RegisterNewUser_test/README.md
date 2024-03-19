@@ -1,4 +1,4 @@
-# Banking Website Automation
+# Register For A New Account
 
 ## Summary
 This framework aims to test the creation of a new account for a banking website. This test supports Edge, Chrome, and Firefox browsers and is able to generate random values for the account creation so no duplicates can occur. 
@@ -44,7 +44,6 @@ This file houses the actual testing class with the methods to be testing. Each m
 5. Set the browser you want to use. Supported browsers include: *(edge, chrome, firefox, headlessedge, headlesschrome, headlessfirefox):* `set browser=edge`
 6. Run pytest: `pytest`
 <br>
-<br>
 
 #### Mac
 2. Open the terminal. Press `cmd + space` and type "Terminal" to open it
@@ -60,28 +59,43 @@ This file houses the actual testing class with the methods to be testing. Each m
 
 **1. Go to the following URL: https://parabank.parasoft.com/parabank/index.htm**
 
-![Home-Page](images\home_screen.jpeg)
+![Home-Page](/RegisterNewUser_test/images/home_screen.jpeg)
+
+<br>
+<br>
 
 **2. Click on the "Register" link**
 
-![Register-Link](images\register-link.jpeg)
+![Register-Link](/RegisterNewUser_test/images/register-link.jpeg)
+
+<br>
+<br>
 
 **3. Change the scope to this new page link**
 
-![New-URL](images\new_url.jpeg)
+![New-URL](/RegisterNewUser_test/images/new_url.jpeg)
+
+<br>
+<br>
 
 **4. Find all of the input fields and fill out these fields** <br>
 &emsp;&emsp;NOTE: Inputs are random everytime so no duplicate accounts are created
 
-![Input-Fields](images\input_fields.jpeg)
+![Input-Fields](/RegisterNewUser_test/images/input_fields.jpeg)
+
+<br>
+<br>
 
 **5. Click on "Register" button**
 
-![Register-Button](images\register-button.jpeg)
+![Register-Button](/RegisterNewUser_test/images/register-button.jpeg)
+
+<br>
+<br>
 
 **6. Confirm the follow message in present:** `Your account was created successfully. You are now logged in.`
 
-![Error-Message](images\error-message.jpeg)
+![Error-Message](/RegisterNewUser_test/images/error-message.jpeg)
 
 
 

@@ -1,7 +1,7 @@
 
 # ^ using all of the functions from the 'HelperFunctions.py' script, I want to test every step involved 
 # ^ this scripts takes the actual xpath inputs from the site
-from Helpers.HelperScript import HelperFunctions
+from HelperScript import HelperFunctions
 import pytest
 
 

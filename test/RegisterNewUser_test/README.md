@@ -9,7 +9,7 @@ In this repository you will find the following structure:
 -> RegisterNewUser_test <br>
 &emsp;&emsp;-> test_module <br>
 &emsp;&emsp;&emsp;&emsp;-> Helpers <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `__init__`.py <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `__init__.py` <br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `HelperScript.py` <br>
 &emsp;&emsp;&emsp;&emsp;-> `register-new-user_test.py` <br>
 &emsp;&emsp;-> venv <br>
@@ -44,10 +44,7 @@ This file houses the actual testing class with the methods to be testing. Each m
 5. Set the browser you want to use. Supported browsers include: *(edge, chrome, firefox, headlessedge, headlesschrome, headlessfirefox):* `set browser=edge`
 6. Run pytest: `pytest`
 <br>
-<<<<<<< HEAD:test/RegisterNewUser_test/README.md
 
-=======
->>>>>>> f5a93d80f8c24e00dc0595321f7847583fe2d088:RegisterNewUser_test/README.md
 
 #### Mac
 2. Open the terminal. Press `cmd + space` and type "Terminal" to open it
@@ -63,58 +60,43 @@ This file houses the actual testing class with the methods to be testing. Each m
 
 **1. Go to the following URL: https://parabank.parasoft.com/parabank/index.htm**
 
-![Home-Page](/RegisterNewUser_test/images/home_screen.jpeg)
-<<<<<<< HEAD:test/RegisterNewUser_test/README.md
-=======
+![Home-Page](/test/RegisterNewUser_test/images/home_screen.jpeg)
 
 <br>
 <br>
->>>>>>> f5a93d80f8c24e00dc0595321f7847583fe2d088:RegisterNewUser_test/README.md
 
 **2. Click on the "Register" link**
 
-![Register-Link](/RegisterNewUser_test/images/register-link.jpeg)
-<<<<<<< HEAD:test/RegisterNewUser_test/README.md
-=======
+![Register-Link](/test/RegisterNewUser_test/images/register-link.jpeg)
 
 <br>
 <br>
->>>>>>> f5a93d80f8c24e00dc0595321f7847583fe2d088:RegisterNewUser_test/README.md
 
 **3. Change the scope to this new page link**
 
-![New-URL](/RegisterNewUser_test/images/new_url.jpeg)
-<<<<<<< HEAD:test/RegisterNewUser_test/README.md
-=======
+![New-URL](/test/RegisterNewUser_test/images/new_url.jpeg)
 
 <br>
 <br>
->>>>>>> f5a93d80f8c24e00dc0595321f7847583fe2d088:RegisterNewUser_test/README.md
 
 **4. Find all of the input fields and fill out these fields** <br>
 &emsp;&emsp;NOTE: Inputs are random everytime so no duplicate accounts are created
 
-![Input-Fields](/RegisterNewUser_test/images/input_fields.jpeg)
-<<<<<<< HEAD:test/RegisterNewUser_test/README.md
-=======
+![Input-Fields](/test/RegisterNewUser_test/images/input_fields.jpeg)
 
 <br>
 <br>
->>>>>>> f5a93d80f8c24e00dc0595321f7847583fe2d088:RegisterNewUser_test/README.md
 
 **5. Click on "Register" button**
 
-![Register-Button](/RegisterNewUser_test/images/register-button.jpeg)
-<<<<<<< HEAD:test/RegisterNewUser_test/README.md
-=======
+![Register-Button](/test/RegisterNewUser_test/images/register-button.jpeg)
 
 <br>
 <br>
->>>>>>> f5a93d80f8c24e00dc0595321f7847583fe2d088:RegisterNewUser_test/README.md
 
 **6. Confirm the follow message in present:** `Your account was created successfully. You are now logged in.`
 
-![Error-Message](/RegisterNewUser_test/images/error-message.jpeg)
+![Error-Message](/test/RegisterNewUser_test/images/error-message.jpeg)
 
 
 

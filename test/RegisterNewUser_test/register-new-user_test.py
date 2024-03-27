@@ -19,7 +19,7 @@ class TestRegisterNewUser(HelperFunctions):
     def test_InputFields(self):
         self.WaitForURL("https://parabank.parasoft.com/parabank/register.htm", self.driver)
 
-        fields = self.FindElements(self.driver)
+        fields = self.FindElements(self.driver, "//td//input[@class='input']")
         for field in fields:
             field_name = field.get_attribute("id")
             if field_name == "customer.username":

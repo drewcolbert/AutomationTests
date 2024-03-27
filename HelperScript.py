@@ -24,8 +24,8 @@ class HelperFunctions:
         elem = driver.find_element(By.XPATH, XPATH)
         return elem
 
-    def FindElements(self, driver):
-        elements = driver.find_elements(By.XPATH, "//td//input[@class='input']")
+    def FindElements(self, XPATH, driver):
+        elements = driver.find_elements(By.XPATH, XPATH)
         return elements
 
     def WaitForElement(self, XPATH, driver, wait_input = default_wait):

@@ -85,7 +85,6 @@ This file houses the actual testing class with the methods to be testing. Each m
 **6. Confirm the follow message in present:** `Your account was created successfully. You are now logged in.`
 
 ![Error-Message](/test/RegisterNewUser_test/images/error-message.jpeg)
-![Error-Message](/test/RegisterNewUser_test/images/error-message.jpeg)
 
 
 

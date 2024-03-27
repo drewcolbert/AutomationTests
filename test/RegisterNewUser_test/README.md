@@ -3,32 +3,7 @@
 ## Summary
 This framework aims to test the creation of a new account for a banking website. This test supports Edge, Chrome, and Firefox browsers and is able to generate random values for the account creation so no duplicates can occur. 
 
-## File Structure
-In this repository you will find the following structure:
-
--> RegisterNewUser_test <br>
-&emsp;&emsp;-> test_module <br>
-&emsp;&emsp;&emsp;&emsp;-> Helpers <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `__init__.py` <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `HelperScript.py` <br>
-&emsp;&emsp;&emsp;&emsp;-> `register-new-user_test.py` <br>
-&emsp;&emsp;-> venv <br>
-&emsp;&emsp;-> `conftest.py` 
-<br>
-<br>
-
-
 ## File Summary
--- `conftest.py`
-
-This file contains our fixture that is used create our driver. This driver is used by our actual test file and allows us to access the browser that the user chooses. A fixture allows us to have all of our test classes access a browser without have to instatiate it in every class.
-<br>
-<br>
--- `HelperScript.py`
-
-This files contains all of our useful functions that perform the actual actions of the test. Examples include opening the browser, finding an element, inputting text to an input field, etc. This file does not include any actual element paths or any testing logic. This is simply to make it easier and cleaner to write our test methods. The test class will inherit all of the methods and attributes from this class. 
-<br>
-<br>
 --`register-new-user_test.py`
 
 This file houses the actual testing class with the methods to be testing. Each method corresponds to a step in the testing process and will be tested through pytest. This class holds the actual XPATH variables and URLs and any other inputs to the `HelperScript.py` class that we inherited. 

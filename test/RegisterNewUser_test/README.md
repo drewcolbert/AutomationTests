@@ -9,7 +9,7 @@ In this repository you will find the following structure:
 -> RegisterNewUser_test <br>
 &emsp;&emsp;-> test_module <br>
 &emsp;&emsp;&emsp;&emsp;-> Helpers <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `__init__`.py <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `__init__.py` <br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-> `HelperScript.py` <br>
 &emsp;&emsp;&emsp;&emsp;-> `register-new-user_test.py` <br>
 &emsp;&emsp;-> venv <br>
@@ -84,6 +84,7 @@ This file houses the actual testing class with the methods to be testing. Each m
 
 **6. Confirm the follow message in present:** `Your account was created successfully. You are now logged in.`
 
+![Error-Message](/test/RegisterNewUser_test/images/error-message.jpeg)
 ![Error-Message](/test/RegisterNewUser_test/images/error-message.jpeg)
 
 

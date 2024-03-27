@@ -6,6 +6,8 @@ import pytest
 
 
 @pytest.mark.usefixtures("CreateDriver")
+@pytest.mark.RegisterNewUser
+@pytest.mark.EndToEnd
 class TestRegisterNewUser(HelperFunctions):
 
     def test_OpenBrowser(self):

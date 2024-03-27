@@ -6,6 +6,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support.ui import Select
 import random
 
 
@@ -49,17 +50,25 @@ class HelperFunctions:
 
         elem = self.FindElement(XPATH, driver)
         elem.send_keys(text)
+    
+    def InputCustomText(self, XPATH, driver, text):
+        elem = self.FindElement(XPATH, driver)
+        elem.send_keys(text)        
 
     def ClickElement(self, XPATH, driver):
         self.WaitForElementClickable(XPATH, driver)
         elem = self.FindElement(XPATH, driver)
         elem.click()
 
-
     def ReturnMessage(self, XPATH, driver):
         self.WaitForElement(XPATH, driver)
         elem = self.FindElement(XPATH, driver).text
         return elem
+    
+    def ActivateDropdown(self, XPATH, driver):
+        dropdown = self.FindElement(XPATH, driver)
+        dropdown_object = Select(dropdown)
+        return dropdown_object
     
 
 

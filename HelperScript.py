@@ -32,6 +32,10 @@ class HelperFunctions:
         wait_time = wait_input
         WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.XPATH, XPATH)))
 
+    def WaitForAllElements(self, XPATH, driver, wait_input = default_wait):
+        wait_time = wait_input
+        WebDriverWait(driver, wait_time).until(EC.presence_of_all_elements_located((By.XPATH, XPATH)))
+
     def WaitForElementClickable(self, XPATH, driver, wait_input = default_wait):
         wait_time = wait_input
         WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, XPATH)))

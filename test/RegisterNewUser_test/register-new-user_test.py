@@ -30,7 +30,7 @@ class TestRegisterNewUser(HelperFunctions):
 
         # find each input element and make sure we know which ones are username and password, input the appropriate text
         # ! fortunately there is no requirement that our inputs need a certain structure, so we can input random text
-        fields = self.FindElements(self.driver, "//td//input[@class='input']")
+        fields = self.FindElements("//td//input[@class='input']", self.driver)
         for field in fields:
             field_name = field.get_attribute("id")
             if field_name == "customer.username":
